@@ -1,4 +1,13 @@
-* {
+/* * {
   background-color: #333333;
   color: #ffffff;
+} */
+
+.willb-navbar {
+  /* background-color: #333333;
+  color: #ffffff; */
+  background-image: url("../public/images/croppedMenu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
 }
