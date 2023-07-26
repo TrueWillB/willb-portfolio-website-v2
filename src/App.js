@@ -1,15 +1,25 @@
 import logo from "./logo.svg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Portfolio from "./components/pages/Portfolio";
+import Contact from "./components/pages/Contact";
+import Resume from "./components/pages/Resume";
 // import MainSite from "./components/MainSite";
 import Navigation from "./components/Navigation";
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <Router>
       <Navigation />
-      <p>This text is from "mainsite"</p>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -6,9 +7,9 @@ export default function Navigation() {
       <header>
         <nav class="navbar navbar-expand-lg willb-navbar ">
           <div class="container-fluid willb-navbar-container">
-            <a class="navbar-brand" href="#">
+            <Link to="/" class="navbar-brand">
               Welcome to Will
-            </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -23,40 +24,44 @@ export default function Navigation() {
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item  ">
-                  <a
+                  <Link
+                    to={"/about"}
+                    className="nav-item"
                     class="nav-link active border-start border-black border-opacity-10 border-2 py-5"
                     aria-current="page"
-                    href="#"
                   >
                     About Me
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item  ">
-                  <a
+                  <Link
+                    to="/portfolio"
                     class="nav-link active border-start border-2 border-black border-opacity-10 py-5 "
                     aria-current="page"
                     href="#"
                   >
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item  ">
-                  <a
+                  <Link
+                    to="/contact"
                     class="nav-link active border-start border-black border-opacity-10 border-2 py-5 "
                     aria-current="page"
                     href="#"
                   >
                     Contact Me
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item  ">
-                  <a
+                  <Link
+                    to="/resume"
                     class="nav-link active border-start border-black border-opacity-10 border-2 py-5 "
                     aria-current="page"
                     href="#"
                   >
                     Resume
-                  </a>
+                  </Link>
                 </li>
 
                 {/* <li class="nav-item dropdown">
