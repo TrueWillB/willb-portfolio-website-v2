@@ -154,5 +154,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #My Additions
-./testZone.html
-donottrack
+testZone.html
+/src/images/defunctImages
