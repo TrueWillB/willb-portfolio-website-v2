@@ -154,4 +154,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #My Additions
-src\components\images\defunct(notNeeded)
+./testZone.html
+donottrack
