@@ -152,3 +152,6 @@ challenge-instructions
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#My Additions
+src\components\images\defunct(notNeeded)
