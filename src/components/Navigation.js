@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import Granim from "react-granim";
 
 export default function Navigation() {
   return (
     <div className="portfolio-app">
       <header>
-        <nav className="navbar navbar-expand-lg willb-navbar ">
+        <nav className="navbar navbar-expand-lg willb-navbar">
           <div className="container-fluid willb-navbar-container">
             <Link to="/" className="navbar-brand">
               Welcome to Will

@@ -1,3 +1,7 @@
+:root {
+  --cloud-color: rgb(0, 143, 195);
+}
+
 .App {
   text-align: center;
 }
@@ -37,6 +41,22 @@
   }
 }
 
+/* =====body===== */
+body {
+  background-color: var(--cloud-color);
+}
+
+/*===Navbar.js===== */
+.willb-navbar {
+  /* background-color: #333333;
+  color: #ffffff; */
+  background-image: url("./components/images/croppedMenu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  /* background-position: center; */
+}
+
 /* =====Portfolio.js======= */
 .project-card-holder {
   margin-left: 10%;
@@ -59,26 +79,26 @@
   background-position: center;
 }
 
-#card-3 {
-  /* background-image: url("../public/images/TheCEO.jpg"); */
-  background-size: cover;
-  background-position: center;
-}
-
-#card-4 {
-  /* background-image: url("../public/images/TheCEO.jpg"); */
-  background-size: cover;
-  background-position: center;
-}
-
-#card-5 {
-  /* background-image: url("../public/images/TheCEO.jpg"); */
-  background-size: cover;
-  background-position: center;
-}
 .card {
   box-shadow: 5px 5px 10px var(--shadow-color);
   margin: 1%;
-  width: 23%;
-  height: 300px;
+  width: 48%;
+  height: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure h3,
+figure p {
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+/* =====About.js===== */
+
+#granim {
+  z-index: -1;
+  /* object-fit: cover; */
 }
