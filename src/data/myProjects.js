@@ -23,16 +23,31 @@ const myProjects = [
     name: "FlashDash",
     description:
       "A quick one-stop-shop to visit in the morning for notes, news, and more",
-    image: "flashDashPhoto.jpg",
+    image: "flashDash.gif",
     link: "https://github.com/ctowns5/flashDash",
   },
   {
-    key: "flashDash2",
-    name: "FlashDash",
+    key: "The Mongo Mambo",
+    name: "The Mongo Mambo",
+    description: "A working social media back end using MongoDB and Mongoose",
+    image: "mongoMambo.jpg",
+    link: "https://github.com/TrueWillB/the-mongo-mambo",
+  },
+  {
+    key: "SVG Logo Generator",
+    name: "SVG Logo Generator",
     description:
-      "A quick one-stop-shop to visit in the morning for notes, news, and more",
-    image: "flashDashPhoto.jpg",
-    link: "https://github.com/ctowns5/flashDash",
+      "A quick and lightweight SVG logo generator that makes simple logos based on user input",
+    image: "svg-generator.png",
+    link: "https://github.com/TrueWillB/The-Quick-SVG-Logo-Generator",
+  },
+  {
+    key: "Regular Expressions Tutorial",
+    name: "Regular Expressions Tutorial",
+    description:
+      "A tutorial on how to use regular expressions, explained in plain english and with an example",
+    image: "regex-tutorial.jpg",
+    link: "https://gist.github.com/TrueWillB/f143ce5c697868ab2682047d73b6a3e8",
   },
 ];
 
