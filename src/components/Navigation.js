@@ -8,29 +8,6 @@ export default function Navigation() {
     <div className="portfolio-app">
       <header>
         <nav className="navbar navbar-expand-lg willb-navbar">
-          {/* <Granim
-            id="granim"
-            className="granim-animation"
-            direction="diagonal"
-            isPausedWhenNotInView
-            image={{
-              source: `${croppedMenu}`,
-              position: ["center", "center"],
-              blendingMode: "multiply",
-              // stretchMode: ["stretch", "stretch"],
-            }}
-            states={{
-              "default-state": {
-                gradients: [
-                  ["#ffffff", "#008FC3"],
-                  ["#008FC3", "#ffffff"],
-                  ["#ffffff", "#008FC3"],
-                  ["#008FC3", "#ffffff"],
-                ],
-                transitionSpeed: 10000,
-              },
-            }}
-          /> */}
           <div className="container-fluid willb-navbar-container">
             <Link to="willb-portfolio-website-v2/" className="navbar-brand">
               Welcome to Will

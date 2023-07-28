@@ -30,14 +30,14 @@ export default function App() {
       </Routes>
       <footer>
         <a
-          href="https://github.com/jordanolguin"
+          href="https://github.com/TrueWillB"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub size={32} />
         </a>{" "}
         <a
-          href="https://www.linkedin.com/in/jordan-olguin-5897b7280/"
+          href="https://www.linkedin.com/in/william-brown-0754a063/"
           target="_blank"
           rel="noopener noreferrer"
         >

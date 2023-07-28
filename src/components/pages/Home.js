@@ -1,22 +1,15 @@
 import React from "react";
+// import windmillClouds from "../images/Wi";
 
 export default function Home() {
   return (
     <div className="main-content-holder">
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sed. Illo
-        at cupiditate iusto iste harum quia possimus, dicta aspernatur dolorum
-        tempore error nostrum adipisci atque porro corrupti! Voluptatum nihil,
-        quidem recusandae velit culpa fugiat illum voluptate aspernatur
-        similique odit perferendis obcaecati ducimus ratione! Quaerat laborum
-        quos amet sint, aperiam autem nemo. Doloribus accusamus hic libero
-        tempora, pariatur, sunt praesentium nostrum recusandae quis quam odit
-        cum omnis possimus corrupti debitis odio deserunt corporis dolores
-        minima expedita asperiores inventore temporibus. Quibusdam quas eos
-        saepe eum esse consectetur ducimus suscipit, dicta est nostrum in odit
-        maxime. Tenetur nihil voluptatibus earum explicabo incidunt?
-      </p>
+      <div className="hero-image">
+        <div class="hero-text">
+          <h1 id="welcome-header">Welcome to the world of Will</h1>
+          <p id="welcome-text">I hope you enjoy your stay</p>
+        </div>
+      </div>
     </div>
   );
 }
