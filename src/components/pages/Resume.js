@@ -5,10 +5,11 @@ const WillBResumePDF = require("../assets/WillBGeneralResume.pdf");
 
 export default function Resume() {
   return (
-    <div>
+    <div className="main-content-holder">
       <h1>Resume</h1>
+      <p>Please click to download</p>
       <a id="resume-link" href={WillBResumePDF} download>
-        <img src={ResumePic} alt="Resume" />
+        <img src={ResumePic} id="resume-image" alt="Resume" />
       </a>
     </div>
   );

@@ -4,7 +4,7 @@ import myProjects from "../../data/myProjects";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="main-content-holder">
       <h1>Portfolio</h1>
       <div className="section-title-holder">
         <h2 id="work-section">Work</h2>

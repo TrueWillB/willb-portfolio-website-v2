@@ -4,7 +4,7 @@ import windmill from "../images/WindmillClouds.jpg";
 
 export default function About() {
   return (
-    <div>
+    <div className="main-content-holder">
       <Granim
         id="granim"
         className="granim-animation"
