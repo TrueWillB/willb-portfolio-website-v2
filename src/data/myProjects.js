@@ -3,6 +3,14 @@
 //I also decided to just make the keys something semantic
 const myProjects = [
   {
+    key: "chat98",
+    name: "chat98",
+    description:
+      "A chat app that uses socket.io to allow users to chat in real time with a fun 90s theme",
+    image: "chat98.gif",
+    link: "https://github.com/TrueWillB/chat98",
+  },
+  {
     key: "blueIt",
     name: "BlueIt",
     description:
