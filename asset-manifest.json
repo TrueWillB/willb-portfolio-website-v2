@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/willb-portfolio-website-v2/static/css/main.1bcab3b3.css",
-    "main.js": "/willb-portfolio-website-v2/static/js/main.a73bfc39.js",
+    "main.js": "/willb-portfolio-website-v2/static/js/main.6ac67f6f.js",
     "static/js/787.9d86eadd.chunk.js": "/willb-portfolio-website-v2/static/js/787.9d86eadd.chunk.js",
     "static/media/blueItAnimation.gif": "/willb-portfolio-website-v2/static/media/blueItAnimation.844b35b07f04d2fd7cc5.gif",
     "static/media/WindmillCloudsORIG.jpg": "/willb-portfolio-website-v2/static/media/WindmillCloudsORIG.82a031c4fd33d0441400.jpg",
     "static/media/blueIt.gif": "/willb-portfolio-website-v2/static/media/blueIt.97924d181e202f1f9376.gif",
+    "static/media/chat98.gif": "/willb-portfolio-website-v2/static/media/chat98.cc77fdc271b94d8369e5.gif",
     "static/media/flashDash.gif": "/willb-portfolio-website-v2/static/media/flashDash.d4bef14ff44b26aff9e9.gif",
     "static/media/study.jpg": "/willb-portfolio-website-v2/static/media/study.ff8fbb8d071a6c55ce8f.jpg",
     "static/media/lorem-photo.jpg": "/willb-portfolio-website-v2/static/media/lorem-photo.736706eed799be28a3fe.jpg",
@@ -26,11 +27,11 @@
     "static/media/WillBGeneralResume.pdf": "/willb-portfolio-website-v2/static/media/WillBGeneralResume.ce4082fd83ea37ac45cb.pdf",
     "index.html": "/willb-portfolio-website-v2/index.html",
     "main.1bcab3b3.css.map": "/willb-portfolio-website-v2/static/css/main.1bcab3b3.css.map",
-    "main.a73bfc39.js.map": "/willb-portfolio-website-v2/static/js/main.a73bfc39.js.map",
+    "main.6ac67f6f.js.map": "/willb-portfolio-website-v2/static/js/main.6ac67f6f.js.map",
     "787.9d86eadd.chunk.js.map": "/willb-portfolio-website-v2/static/js/787.9d86eadd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bcab3b3.css",
-    "static/js/main.a73bfc39.js"
+    "static/js/main.6ac67f6f.js"
   ]
 }
