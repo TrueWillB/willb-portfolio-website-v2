@@ -9,7 +9,7 @@ export default function Navigation() {
       <header>
         <nav className="navbar navbar-expand-lg willb-navbar">
           <div className="container-fluid willb-navbar-container">
-            <Link to="willb-portfolio-website-v2/" className="navbar-brand">
+            <Link to="/" className="navbar-brand">
               Welcome to Will
             </Link>
             <button
@@ -30,7 +30,7 @@ export default function Navigation() {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item  ">
                   <Link
-                    to={"willb-portfolio-website-v2/about"}
+                    to={"/about"}
                     className="nav-item nav-link active border-start border-black border-opacity-10 border-2 py-5"
                     aria-current="page"
                   >
@@ -39,7 +39,7 @@ export default function Navigation() {
                 </li>
                 <li className="nav-item  ">
                   <Link
-                    to="willb-portfolio-website-v2/portfolio"
+                    to="/portfolio"
                     className="nav-link active border-start border-2 border-black border-opacity-10 py-5 "
                     aria-current="page"
                   >
@@ -48,7 +48,7 @@ export default function Navigation() {
                 </li>
                 <li className="nav-item  ">
                   <Link
-                    to="willb-portfolio-website-v2/contact"
+                    to="/contact"
                     className="nav-link active border-start border-black border-opacity-10 border-2 py-5 "
                     aria-current="page"
                   >
@@ -57,7 +57,7 @@ export default function Navigation() {
                 </li>
                 <li className="nav-item  ">
                   <Link
-                    to="willb-portfolio-website-v2/resume"
+                    to="/resume"
                     className="nav-link active border-start border-black border-opacity-10 border-2 py-5 "
                     aria-current="page"
                   >

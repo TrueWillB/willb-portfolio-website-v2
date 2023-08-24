@@ -1,5 +1,10 @@
 // n
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -12,20 +17,14 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <Navigation />
       <Routes>
-        <Route path="willb-portfolio-website-v2/" element={<Home />} />
-        <Route path="willb-portfolio-website-v2/about" element={<About />} />
-        <Route
-          path="willb-portfolio-website-v2/portfolio"
-          element={<Portfolio />}
-        />
-        <Route
-          path="willb-portfolio-website-v2/contact"
-          element={<Contact />}
-        />
-        <Route path="willb-portfolio-website-v2/resume" element={<Resume />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
         git pull
       </Routes>
       <footer>
@@ -44,6 +43,6 @@ export default function App() {
           <FaLinkedin size={32} />
         </a>
       </footer>
-    </Router>
+    </HashRouter>
   );
 }
