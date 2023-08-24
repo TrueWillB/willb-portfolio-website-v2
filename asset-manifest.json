@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/willb-portfolio-website-v2/static/css/main.1bcab3b3.css",
+    "main.css": "/willb-portfolio-website-v2/static/css/main.69d0cf1f.css",
     "main.js": "/willb-portfolio-website-v2/static/js/main.238b61e6.js",
     "static/js/787.9d86eadd.chunk.js": "/willb-portfolio-website-v2/static/js/787.9d86eadd.chunk.js",
     "static/media/blueItAnimation.gif": "/willb-portfolio-website-v2/static/media/blueItAnimation.844b35b07f04d2fd7cc5.gif",
@@ -26,12 +26,12 @@
     "static/media/svg-generator.png": "/willb-portfolio-website-v2/static/media/svg-generator.5e3396bb1cf74eebcd1c.png",
     "static/media/WillBGeneralResume.pdf": "/willb-portfolio-website-v2/static/media/WillBGeneralResume.ce4082fd83ea37ac45cb.pdf",
     "index.html": "/willb-portfolio-website-v2/index.html",
-    "main.1bcab3b3.css.map": "/willb-portfolio-website-v2/static/css/main.1bcab3b3.css.map",
+    "main.69d0cf1f.css.map": "/willb-portfolio-website-v2/static/css/main.69d0cf1f.css.map",
     "main.238b61e6.js.map": "/willb-portfolio-website-v2/static/js/main.238b61e6.js.map",
     "787.9d86eadd.chunk.js.map": "/willb-portfolio-website-v2/static/js/787.9d86eadd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bcab3b3.css",
+    "static/css/main.69d0cf1f.css",
     "static/js/main.238b61e6.js"
   ]
 }
